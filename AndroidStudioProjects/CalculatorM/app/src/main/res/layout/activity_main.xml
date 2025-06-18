@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Display Section -->
+    <EditText
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0"
+        android:gravity="end"
+        android:inputType="none"
+        android:background="@null"
+        android:textSize="32sp"
+        android:textColor="#000"
+        android:padding="16dp" />
+
+    <!-- Buttons Section -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="5"
+        android:paddingTop="16dp">
+
+        <!-- Buttons -->
+        <Button android:id="@+id/btn_clear" android:text="C" style="@style/ButtonStyle" />
+        <Button android:id="@+id/btn_divide" android:text="/" style="@style/ButtonStyle" />
+        <Button android:id="@+id/btn_multiply" android:text="*" style="@style/ButtonStyle" />
+        <Button android:id="@+id/btn_delete" android:text="⌫" style="@style/ButtonStyle" />
+
+        <Button android:id="@+id/btn_7" android:text="7" style="@style/ButtonStyle" />
+        <Button android:id="@+id/btn_8" android:text="8" style="@style/ButtonStyle" />
+
+        <Button
+            android:id="@+id/btn_9"
+            style="@style/ButtonStyle"
+            android:layout_width="1316dp"
+            android:layout_height="350dp"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/btn_subtract"
+            style="@style/ButtonStyle"
+            android:layout_width="261dp"
+            android:layout_height="46dp"
+            android:text="-" />
+
+        <Button android:id="@+id/btn_4" android:text="4" style="@style/ButtonStyle" />
+        <Button android:id="@+id/btn_5" android:text="5" style="@style/ButtonStyle" />
+        <Button android:id="@+id/btn_6" android:text="6" style="@style/ButtonStyle" />
+
+        <Button
+            android:id="@+id/btn_add"
+            style="@style/ButtonStyle"
+            android:layout_row="0"
+            android:layout_column="6"
+            android:text="+" />
+
+        <Button android:id="@+id/btn_1" android:text="1" style="@style/ButtonStyle" />
+        <Button android:id="@+id/btn_2" android:text="2" style="@style/ButtonStyle" />
+        <Button android:id="@+id/btn_3" android:text="3" style="@style/ButtonStyle" />
+        <Button android:id="@+id/btn_equals" android:text="=" style="@style/ButtonStyle" />
+
+        <Button android:id="@+id/btn_0" android:text="0" style="@style/ButtonStyle" android:layout_columnSpan="2" />
+        <Button android:id="@+id/btn_dot" android:text="." style="@style/ButtonStyle" />
+    </GridLayout>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_launcher">
+
+    <!-- Centered Layout for Logo and App Name -->
+    <LinearLayout
+        android:id="@+id/centeredLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        tools:ignore="UseCompoundDrawables,UselessParent">
+
+        <!-- Logo Image -->
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/logo_name"
+            android:src="@drawable/logo" />
+
+        <!-- App Name Text -->
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:text="@string/logo_name"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:fontFamily="@font/font"
+            android:textSize="24sp" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,57 @@
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+
+# Gradle files
+.gradle/
+build/
+!gradle-wrapper.jar
+gradle-app.setting
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Proguard
+proguard/
+
+# Log files
+*.log
+
+# Android Studio/IntelliJ project files
+.idea/
+*.iml
+*.ipr
+*.iws
+*.jks
+
+# Keystore files (sensitive)
+*.keystore
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Node.js (if using React Native parts or backend tools)
+node_modules/
+
+# Kotlin build folders
+.kotlinc/
+
+# Cache
+.cxx/
+.cache/
